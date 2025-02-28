@@ -1,12 +1,3 @@
-<p align="center"><a href="https://example.com" target="_blank"><img src="https://example.com/logo.svg" width="400" alt="Project Logo"></a></p>
-
-<p align="center">
-<a href="https://github.com/yourusername/yourproject/actions"><img src="https://github.com/yourusername/yourproject/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/yourusername/yourproject"><img src="https://img.shields.io/packagist/dt/yourusername/yourproject" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/yourusername/yourproject"><img src="https://img.shields.io/packagist/v/yourusername/yourproject" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/yourusername/yourproject"><img src="https://img.shields.io/packagist/l/yourusername/yourproject" alt="License"></a>
-</p>
-
 ## About This Project
 
 This project is a web application built with modern technologies. It aims to provide a robust and scalable solution for Weather api usage.
