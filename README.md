@@ -40,7 +40,7 @@ To get started with this project, follow these steps:
 se debe crear un corn para ejecutar la tarea de optener la informacion en segundo plano 
     * * * * * cd /ruta/a/tu/proyecto && php artisan schedule:run >> /dev/null 2>&1
 
-
+Se debe eejecutar el comando php artisan queue:work en segundo plano
 
 
 ## License
