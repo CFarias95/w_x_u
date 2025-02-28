@@ -1,48 +1,47 @@
-## About This Project
+## Acerca de Este Proyecto
 
-This project is a web application built with modern technologies. It aims to provide a robust and scalable solution for Weather api usage.
+Este proyecto es una aplicación web construida con tecnologías modernas. Su objetivo es proporcionar una solución robusta y escalable para el uso de la API del clima.
 
-## Getting Started
+## Comenzando
 
-To get started with this project, follow these steps:
+Para comenzar con este proyecto, sigue estos pasos:
 
-1. Clone the repository:
+1. Clona el repositorio:
     ```bash
-    git clone https://github.com/yourusername/yourproject.git
-    cd yourproject
+    git clone https://github.com/tuusuario/tuproyecto.git
+    cd tuproyecto
     ```
 
-2. Install dependencies:
+2. Instala las dependencias:
     ```bash
     composer install
     npm install
     ```
 
-3. Copy the example environment file and configure the environment variables:
+3. Copia el archivo de entorno de ejemplo y configura las variables de entorno:
     ```bash
     cp .env.example .env
     php artisan key:generate
     ```
 
-4. Run the database migrations:
+4. Ejecuta las migraciones de la base de datos:
     ```bash
     php artisan migrate --seed
     ```
 
-5. Start the local development server:
+5. Inicia el servidor de desarrollo local:
     ```bash
     php artisan serve
     npm run dev
     ```
 
-## Aditional
+## Adicional
 
-se debe crear un corn para ejecutar la tarea de optener la informacion en segundo plano 
+Se debe crear un cron para ejecutar la tarea de obtener la información en segundo plano:
     * * * * * cd /ruta/a/tu/proyecto && php artisan schedule:run >> /dev/null 2>&1
 
-Se debe eejecutar el comando php artisan queue:work en segundo plano
+Se debe ejecutar el comando php artisan queue:work en segundo plano.
 
+## Licencia
 
-## License
-
-This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Este proyecto es software de código abierto licenciado bajo la [licencia MIT](https://opensource.org/licenses/MIT).
